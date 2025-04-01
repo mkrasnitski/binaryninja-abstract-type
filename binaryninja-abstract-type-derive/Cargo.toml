@@ -1,0 +1,13 @@
+[package]
+name = "binaryninja-abstract-type-derive"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+proc-macro2 = "1.0.93"
+proc-macro2-diagnostics = { version = "0.10.1", default-features = false }
+quote = "1.0.38"
+syn = "2.0.98"
+
+[lib]
+proc-macro = true

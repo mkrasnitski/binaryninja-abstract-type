@@ -1,0 +1,12 @@
+[package]
+name = "binaryninja-abstract-type"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+elain = "0.3.1"
+binaryninja = { path = "../binaryninja-api/rust" }
+binaryninja-abstract-type-derive = { path = "./binaryninja-abstract-type-derive" }
+
+[workspace]
+members = ["binaryninja-abstract-type-derive"]
